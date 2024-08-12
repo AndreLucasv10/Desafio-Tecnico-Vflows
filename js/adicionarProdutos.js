@@ -80,7 +80,7 @@ export function getProdutos() {
   $('#tabela-produtos tbody tr').each(function () {
     const $linha = $(this);
     produtos.push({
-      descricao: $linha.find('.descricao-produto').val().trim(),
+      NomeProduto: $linha.find('.descricao-produto').val().trim(),
       unidadeMedida: $linha.find('.unidade-medida').val().trim(),
       quantidadeEstoque: $linha.find('.qtde-estoque').val().trim(),
       valorUnitario: $linha.find('.valor-unitario').val().trim(),

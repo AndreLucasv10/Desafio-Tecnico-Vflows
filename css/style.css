@@ -110,13 +110,11 @@
     margin: 0 auto;
 }
 
-/* Animação do Spinner */
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
 
-/* Estilo básico para o dropdown */
 .input-group {
   position: relative;
 }
@@ -161,4 +159,9 @@
   height: 1px;
   background-color: #e5e5e5;
   margin: 5px 0;
+}
+
+h2 {
+  width: 30%;
+  border-bottom: 1px solid #3d3b3b;
 }
