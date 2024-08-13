@@ -61,7 +61,7 @@ export function initAdicionarProdutos() {
       }
     });
 
-    // Event handler to calculate total value
+    
     $row.find('input').on('input', function () {
       const $linha = $(this).closest('tr');
       const quantidade = parseFloat($linha.find('.qtde-estoque').val()) || 0;
