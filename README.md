@@ -8,3 +8,5 @@ Siga os passos abaixo para clonar e iniciar o projeto localmente:
 
    ```bash
    git clone [URL_DO_REPOSITÓRIO]
+
+2. **E abra o index.html**
